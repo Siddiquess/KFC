@@ -1,0 +1,433 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* ---------------Nav----------------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+
+.nav-right,
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign {
+    margin: 0 6px 6px 0;
+    padding-right: 6px;
+    border-right: 1px solid rgb(94, 96, 94);
+}
+
+
+
+/* ---------------Nav ends----------------- */
+
+
+/* ---------------Start order ----------------- */
+
+.container-head {
+    background-color: rgb(32, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.text-head {
+    font-size: large;
+    font-weight: 600;
+    color: white;
+
+}
+
+.button-head {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    padding: 20px;
+    height: 7px;
+    border-radius: 25px;
+
+}
+
+
+/* ---------------Start order ends----------------- */
+
+
+
+
+
+/* ---------------Welcome to kfc----------------- */
+
+.slide-tail {
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F7F5;
+
+}
+
+.three-lines {
+    display: flex;
+    margin-left: 150px;
+
+}
+
+.three-lines1,
+.three-lines2,
+.three-lines3 {
+
+    width: 8px;
+    height: 25px;
+    background-color: rgb(228, 0, 43);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+
+}
+.wlcome{
+  margin-left: 150px;
+  font-weight: 700;
+ 
+}
+
+
+.card {
+
+    border: none;
+    background-color: #F8F7F5;
+    margin-top: 10px;
+   
+}
+
+/* ---------------welcome to kfc ends ----------------- */
+
+
+
+.row .col-6 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+
+    cursor: pointer;
+}
+
+
+
+/* ------------------Card section---------------- */
+
+
+
+.mid-part:after {
+    content: "";
+    display: block;
+    width: 67%;
+    height: 1px;
+    background-color: rgb(106, 108, 107);
+}
+
+.mid-part {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ------------------Card section ends---------------- */
+
+
+
+/* ------------------Footer first section---------------- */
+
+.footer-first {
+    background-color: rgb(32, 30, 30);
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+
+}
+
+.l1,
+.l2,
+.l3 {
+    width: 20px;
+    height: 40px;
+    background-color: rgb(228, 0, 43);
+    ;
+    margin-right: 20px;
+
+}
+
+.left-t {
+
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.card-foot {
+
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 2em;
+    overflow-x: scroll;
+    width: 100%;
+
+}
+
+.btn:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    color: rgb(32, 30, 30);
+
+}
+
+
+/* ------------------Footer first ends---------------- */
+
+
+
+
+
+
+/* ------------------Footer second section---------------- */
+.footer-second {
+    background-color: rgb(32, 30, 30);
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    line-height: 2rem;
+}
+
+left-foot img {
+    display: flex;
+    justify-content: center;
+}
+
+
+mid-foot {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-main li {
+    list-style: none;
+    color: white;
+}
+
+
+
+
+.location {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.mid-foot-else-case .nav-link {
+
+    border-top: 1px solid #494949;
+    border-bottom: 1px solid #494949;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+
+
+
+.dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    background-color: #494949;
+
+}
+
+.dropdown-item {
+    border-bottom: 1px solid grey;
+    color: white;
+}
+
+/* ------------------Footer second ends---------------- */
+
+
+
+
+
+
+
+
+/* ---------------All media----------------- */
+
+@media (min-width:1300px) {
+
+    .card-parent {
+
+        margin-left: 300px;
+    }
+
+    .KFCtwo {
+        display: none;
+    }
+
+
+
+}
+
+@media(max-width:1300px) {
+
+    .navbar-brand .KFCone {
+        display: none;
+    }
+
+
+    .center-img {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 20px;
+        left: 45%;
+        z-index: 10;
+
+    }
+
+
+    .nav-right {
+        display: none;
+    }
+
+    .container-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .lines {
+        display: flex;
+        justify-content: center;
+    }
+
+    .three-lines{
+        display: flex;
+        margin:0;
+        justify-content: center;
+    }
+    .wlcome{
+        display: flex;
+        justify-content: center;
+        margin:0;
+    }
+
+
+}
+
+@media(max-width:1100px) {
+
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+    mid-foot {
+        display: none;
+
+    }
+
+    .mid-foot-else-case {
+
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin-top: 4rem;
+
+    }
+
+    left-foot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .location {
+        margin-top: 50px;
+    }
+
+    .right-foot {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+
+}
+
+@media(min-width:1100px) {
+
+    .mid-foot-else-case {
+        display: none;
+    }
+
+
+
+
+}
+
+@media(max-width:376px) {
+    .card-text {
+        font-size: 75%;
+
+    }
+
+}
+
+
+/* ---------------Media ends----------------- */
